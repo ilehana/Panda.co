@@ -25,12 +25,23 @@ header nav{
 nav ul {
     list-style: none;
     display: flex;
-    gap: 4rem;
-    font-size: 16px;
+     
+}
+nav ul li {
+    background-color: white;
+    padding: 10px;
+    border-radius: 1000px;
+    gap: 8rem;
+    font-size: 15px;
     font-weight: bolder;
     color: black;
     font-family: sans-serif;
     
+}
+
+nav ul li:hover{
+    background-color: pink;
+    color: white;
 }
 
 nav img{
@@ -48,13 +59,17 @@ button {
     border: 3px black; 
     border-radius: 1000px;
     font-family: sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: bolder;
     margin-right: 30px;
     display: flex;
     align-items: center;
     gap: .0rem;
     line-height: 0px;  
+}
+
+button:hover {
+    background-color: pink;
 }
 
 .page {
@@ -93,12 +108,17 @@ aside ul li{
     justify-content: space-around;
     font-weight: bolder;
     width: 10rem;
+    font-size: 15px;
     
 }
 
 li a {
     text-decoration: none;
     color: white;
+}
+
+aside ul li:hover { 
+    background-color: pink;
 }
 
 
@@ -146,18 +166,25 @@ footer {
     background-color: rgb(209, 197, 197);
     display: flex;
     flex-direction: column;
-    height: 8rem;
-    color: black;
     margin-top: 10px;
-    gap: 4px;
+    height: 5rem;    
 }
 
-#socialmedia {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: .8rem;
+footer p {
+    color: black;
+    margin-bottom: 0px;
+    font-size: .8rem;
 }
+
+ footer div a img {
+    height: 15px;
+
+ }
+
+ #socialmedia {
+    margin-top: 4px;
+    
+ }
     
 
 
